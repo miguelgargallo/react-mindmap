@@ -283,8 +283,8 @@ module.exports = function(webpackEnv) {
             priority: 21,
             test: /[\\/]node_modules[\\/]@blueprintjs\/.*[\\/]/
           },
-          blinkmind: {
-            name: "chunk-blinkmind",
+          pencilmap: {
+            name: "chunk-pencilmap",
             priority: 22,
             test: module => {
               const isBlink = /@blink-mind/.test(module.context);
