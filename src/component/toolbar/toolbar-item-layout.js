@@ -8,11 +8,11 @@ export function ToolbarItemLayout(props) {
   const layoutDirs = [
     [
       DiagramLayoutType.LEFT_AND_RIGHT,
-      "Left And Right",
+      "Both",
       "layout-left-and-right"
     ],
-    [DiagramLayoutType.LEFT_TO_RIGHT, "Only Right", "layout-right"],
-    [DiagramLayoutType.RIGHT_TO_LEFT, "Only Left", "layout-left"]
+    [DiagramLayoutType.LEFT_TO_RIGHT, "Right", "layout-right"],
+    [DiagramLayoutType.RIGHT_TO_LEFT, "Left", "layout-left"]
   ];
 
   const onClickSetLayout = layoutDir => e => {
