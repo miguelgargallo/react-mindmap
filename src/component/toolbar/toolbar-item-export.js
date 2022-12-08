@@ -21,14 +21,7 @@ export function ToolbarItemExport(props) {
   };
 
   return (
-    <div className={cx("pencilmap-toolbar-item", iconClassName("export"))}>
-      <Popover enforceFocus={false}>
-        <div className="pencilmap-toolbar-popover-target" />
-        <Menu>
-          <MenuItem text="JSON(.json)" onClick={onClickExportJson} />
-          <MenuDivider />
-        </Menu>
-      </Popover>
+    <div className={cx("pencilmap-toolbar-item", iconClassName("export"))} onClick={onClickExportJson}>
     </div>
   );
 }
