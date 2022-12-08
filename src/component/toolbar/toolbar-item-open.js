@@ -14,7 +14,7 @@ export function ToolbarItemOpen(props) {
   };
   return (
     <div
-      className={`bm-toolbar-item ${iconClassName("openfile")}`}
+      className={`pencilmap-toolbar-item ${iconClassName("openfile")}`}
       onClick={onClickOpenFile}
     />
   );

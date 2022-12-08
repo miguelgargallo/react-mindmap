@@ -24,17 +24,17 @@ export function ToolbarItemTheme(props) {
   ];
 
   return (
-    <div className={cx("bm-toolbar-item", iconClassName("theme"))}>
+    <div className={cx("pencilmap-toolbar-item", iconClassName("theme"))}>
       <Popover enforceFocus={false}>
-        <div className="bm-toolbar-popover-target" />
-        <div className="bm-popover-theme">
+        <div className="pencilmap-toolbar-popover-target" />
+        <div className="pencilmap-popover-theme">
           {themes.map(theme => (
             <div
               key={theme[0]}
-              className="bm-theme-item"
+              className="pencilmap-theme-item"
               onClick={onClickSetTheme(theme[0])}
             >
-              <img className="bm-theme-img" src={theme[1]} alt={theme[0]} />
+              <img className="pencilmap-theme-img" src={theme[1]} alt={theme[0]} />
             </div>
           ))}
         </div>

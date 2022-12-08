@@ -18,7 +18,7 @@ export class Toolbar extends React.PureComponent {
     const { onClickUndo, onClickRedo, canUndo, canRedo } = props;
 
     return (
-      <div className="bm-toolbar">
+      <div className="pencilmap-toolbar">
         <ToolbarItemOpen {...props} />
         <ToolbarItemExport {...props} />
         <ToolbarItemTheme {...props} />
@@ -26,15 +26,15 @@ export class Toolbar extends React.PureComponent {
         <ToolbarItemSearch {...props} />
 
         <div
-          className={cx("bm-toolbar-item", iconClassName("undo"), {
-            "bm-toolbar-item-disabled": !canUndo
+          className={cx("pencilmap-toolbar-item", iconClassName("undo"), {
+            "pencilmap-toolbar-item-disabled": !canUndo
           })}
           onClick={onClickUndo}
         />
 
         <div
-          className={cx("bm-toolbar-item", iconClassName("redo"), {
-            "bm-toolbar-item-disabled": !canRedo
+          className={cx("pencilmap-toolbar-item", iconClassName("redo"), {
+            "pencilmap-toolbar-item-disabled": !canRedo
           })}
           onClick={onClickRedo}
         />

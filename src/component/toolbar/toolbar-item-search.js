@@ -17,7 +17,7 @@ export function ToolbarItemSearch(props) {
   };
   return (
     <div
-      className={`bm-toolbar-item ${iconClassName(IconName.SEARCH)}`}
+      className={`pencilmap-toolbar-item ${iconClassName(IconName.SEARCH)}`}
       onClick={onClickSearch}
     />
   );

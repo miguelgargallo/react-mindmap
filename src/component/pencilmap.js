@@ -21,7 +21,7 @@ const plugins = [
   JsonSerializerPlugin()
 ];
 
-export class Mindmap extends React.Component {
+export class pencilmap extends React.Component {
   constructor(props) {
     super(props);
     this.initModel();
@@ -87,7 +87,7 @@ export class Mindmap extends React.Component {
 
   render() {
     return (
-      <div className="mindmap">
+      <div className="pencilmap">
         {this.diagram && this.renderToolbar()}
         {this.renderDiagram()}
       </div>
@@ -95,4 +95,4 @@ export class Mindmap extends React.Component {
   }
 }
 
-export default Mindmap;
+export default pencilmap;

@@ -24,10 +24,10 @@ export function ToolbarItemLayout(props) {
 
   return (
     <div
-      className={cx("bm-toolbar-item", iconClassName("layout-left-and-right"))}
+      className={cx("pencilmap-toolbar-item", iconClassName("layout-left-and-right"))}
     >
       <Popover enforceFocus={false}>
-        <div className="bm-toolbar-popover-target" />
+        <div className="pencilmap-toolbar-popover-target" />
         <Menu>
           {layoutDirs.map(dir => (
             <MenuItem
