@@ -15,14 +15,16 @@
 
 .pencilmap-toolbar-item-disabled {
   color: #cacaca00;
+  cursor: default;
 }
 
 .pencilmap-toolbar-item-disabled:hover {
   color: #cacaca00;
+  cursor: default;
 }
 
 .pencilmap-toolbar-item:hover {
-  color: #cacaca00;
+  color: #00ff4000;
   border: #2cb89200 5px solid;
   background-color: #0000ff00;
 }
@@ -30,11 +32,12 @@
 .pencilmap-theme-item {
   cursor: pointer;
   padding: 10px;
+
 }
 
 .pencilmap-toolbar .iconfont {
   font-size: 28px !important;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  
 }
 
 .pencilmap-theme-img {

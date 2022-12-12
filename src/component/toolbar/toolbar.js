@@ -8,9 +8,6 @@ import { ToolbarItemTheme } from "./toolbar-item-theme";
 import { ToolbarItemExport } from "./toolbar-item-export";
 import { ToolbarItemSearch } from "./toolbar-item-search";
 
-// import debug from "debug";
-// const log = debug("app");
-
 export class Toolbar extends React.PureComponent {
   render() {
     const props = this.props;
